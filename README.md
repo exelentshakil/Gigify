@@ -30,7 +30,7 @@ Gigify is a comprehensive platform designed to simplify the process of buying an
 
 To run Gigify on your local machine, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/gigify.git`
+1. Clone the repository: `git clone https://github.com/exelentshakil/gigify.git`
 
 2. Install dependencies: `npm install` (for frontend) and `composer install` (for backend)
 
@@ -54,7 +54,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## TODO 📌
 
-- [ ] Add user authentication functionality.
+- [x] Add user authentication functionality.
+- [x] Gig Listings.
+- [x] Search and Filters.
 - [ ] Implement real-time messaging with WebSockets.
 - [ ] Integrate a payment gateway for secure transactions.
 - [ ] Develop user profile customization options.

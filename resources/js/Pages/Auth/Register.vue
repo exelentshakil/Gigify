@@ -10,6 +10,7 @@ const form = useForm({
     name: '',
     email: '',
     password: '',
+    role: '',
     password_confirmation: '',
 });
 
@@ -84,6 +85,14 @@ const submit = () => {
                 />
 
                 <InputError class="mt-2" :message="form.errors.password_confirmation" />
+            </div>
+
+
+            <div class="mt-4">
+                <select v-model="form.role" id="role">
+                    <option value="freelancer">Freelancer</option>
+                    <option value="client">Client</option>
+                </select>
             </div>
 
             <div class="flex items-center justify-end mt-4">
